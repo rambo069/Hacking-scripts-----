@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Simple URL Shortener</title>
+    <style>
+      body{font-family:Arial,Helvetica,sans-serif;max-width:700px;margin:40px auto;padding:0 16px}
+      input{width:100%;padding:8px;margin:8px 0}
+      button{padding:8px 12px}
+      .result{margin-top:12px}
+    </style>
+  </head>
+  <body>
+    <h1>Simple URL Shortener</h1>
+    <form id="form">
+      <label for="url">URL to shorten</label>
+      <input id="url" name="url" type="url" placeholder="https://example.com" required />
+      <button type="submit">Shorten</button>
+    </form>
+    <div class="result" id="result"></div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

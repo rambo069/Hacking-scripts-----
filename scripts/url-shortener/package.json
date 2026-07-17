@@ -1,0 +1,15 @@
+{
+  "name": "simple-url-shortener",
+  "version": "0.1.0",
+  "description": "Minimal URL shortener (Node + Express)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
